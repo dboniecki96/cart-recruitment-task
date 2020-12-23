@@ -1,0 +1,21 @@
+.cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info, .actions {
+    display: flex;
+    align-items: center;
+}
+
+.info > *, .actions > * {
+    margin-right: 10px;
+}
+
+.actions > button {
+    width: 40px;
+}
+
+.value {
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    width: 900px;
+    margin: 100px auto 0 auto;
+}
+
+.row {
+    padding: 10px;
+    border-bottom: 1px solid silver;
+    list-style: none;
+}
+
+.loading {
+    font-weight: bold;
+    color: indianred;
+}
+
+button {
+    border: none;
+    padding: 2px;
+    font-weight: bold;
+    background-color: lavender;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: lavenderblush;
+}
